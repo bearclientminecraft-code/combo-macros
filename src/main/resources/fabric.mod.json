@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "combomacros",
+	"version": "${version}",
+	"name": "Combo Macros",
+	"description": "Hotkey combos: slot switching and right/left clicks with a short delay.",
+	"authors": [
+		"You"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.combomacros.ComboMacrosMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
